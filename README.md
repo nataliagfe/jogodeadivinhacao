@@ -1,4 +1,4 @@
-# jogodeadivinhacao
+# Jogo de Adivinhação
 
 Este é um jogo simples de adivinhação de bandeiras, onde o jogador deve identificar o país com base na bandeira exibida na tela. O jogo busca aleatoriamente países e suas respectivas bandeiras usando a API de dados de países RestCountries. Cada vez que o jogador acerta ou erra, a pontuação é atualizada na tela.
 
