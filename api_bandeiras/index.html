@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Bandeiras</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Adição da div "layout"-->
+    <div id="layout">
+        <h1>Qual é o país desta bandeira?</h1>
+        <!-- Adição da div "bandeira"-->
+        <div id="bandeira">
+            <img id="flagImage" alt="Bandeira do país" style="display: none;">
+        </div>
+        <div id="options"></div>
+        <div id="result"></div>
+        <button id="nextButton" style="display:none;">Próximo</button>
+        <!-- Adição da div "pontuacao" para adicionar um sistema de pontos-->
+        <div id="pontuacao">
+            <p>Pontuação: <span id="pontos">0</span></p>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
